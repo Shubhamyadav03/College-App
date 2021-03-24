@@ -29,7 +29,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circle_green"
-                    android:src="@drawable/ic_baseline_event_note_24"
+                    android:src="@drawable/ic_notice"
                     android:padding="10dp"/>
                 <View
                     android:layout_width="match_parent"
@@ -55,7 +55,7 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:id="@+id/addNotice"
+            android:id="@+id/addGalleryImage"
             app:cardElevation="5dp">
 
             <LinearLayout
@@ -67,7 +67,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circle_blue"
-                    android:src="@drawable/ic_baseline_image_24"
+                    android:src="@drawable/ic_gallery"
                     android:padding="10dp"/>
                 <View
                     android:layout_width="match_parent"
@@ -101,7 +101,7 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:id="@+id/addNotice"
+            android:id="@+id/addEbook"
             app:cardElevation="5dp">
 
             <LinearLayout
@@ -113,7 +113,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circle_pink"
-                    android:src="@drawable/ic_baseline_cloud_upload_24"
+                    android:src="@drawable/ic_upload"
                     android:padding="10dp"/>
                 <View
                     android:layout_width="match_parent"
@@ -139,7 +139,7 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:id="@+id/addNotice"
+            android:id="@+id/faculty"
             app:cardElevation="5dp">
 
             <LinearLayout
@@ -185,7 +185,7 @@
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_margin="10dp"
-        android:id="@+id/addNotice"
+        android:id="@+id/deleteNotice"
         app:cardElevation="5dp">
 
         <LinearLayout
@@ -223,7 +223,7 @@
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_margin="10dp"
-        android:id="@+id/addNotice"
+        android:id="@+id/addFile"
         app:cardElevation="5dp">
 
         <LinearLayout
