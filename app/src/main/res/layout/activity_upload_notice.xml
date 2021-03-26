@@ -59,16 +59,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/noticeTitle"
                 android:layout_width="match_parent"
-                android:layout_height="86dp"
+                android:layout_height="50dp"
                 android:hint="Notice Title" />
         </com.google.android.material.textfield.TextInputLayout>
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="upload notice"
-            android:layout_marginTop="16dp"
-            android:textAllCaps="false"
-            android:id="@+id/uploadNoticeBtn"/>
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
@@ -80,6 +73,13 @@
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"/>
         </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="upload notice"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="false"
+            android:id="@+id/uploadNoticeBtn"/>
     </LinearLayout>
 
 </ScrollView>
