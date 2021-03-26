@@ -38,13 +38,11 @@ public class UploadNotice extends AppCompatActivity {
     }
 
     private void openGallery() {
-        Intent pickImage = onNewIntent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        Intent pickImage = new Intent (Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(pickImage,REQ);
     }
 
-    private Intent onNewIntent(String ACTION_PICK, Uri EXTERNAL_CONTENT_URI) {
-        return null;
-    }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
