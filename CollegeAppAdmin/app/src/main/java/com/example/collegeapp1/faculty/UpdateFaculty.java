@@ -125,7 +125,7 @@ public class UpdateFaculty extends AppCompatActivity {
         });
     }
     private void elecDepartment() {
-        dbRef = reference.child("Physics");
+        dbRef = reference.child("Electrical");
         dbRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -154,7 +154,7 @@ public class UpdateFaculty extends AppCompatActivity {
         });
     }
     private void electroDepartment() {
-        dbRef = reference.child("Chemistry");
+        dbRef = reference.child("Electronic");
         dbRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
