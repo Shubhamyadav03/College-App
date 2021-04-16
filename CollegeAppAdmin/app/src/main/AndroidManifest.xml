@@ -18,7 +18,7 @@
         <activity android:name=".faculty.UpdateFaculty" />
         <activity android:name=".UploadPdfActivity" />
         <activity android:name=".UploadImage" />
-        <activity android:name=".UploadNotice" />
+        <activity android:name=".notice.UploadNotice" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

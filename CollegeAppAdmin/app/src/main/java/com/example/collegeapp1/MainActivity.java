@@ -8,9 +8,11 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.collegeapp1.faculty.UpdateFaculty;
+import com.example.collegeapp1.notice.DeleteNoticeActivity;
+import com.example.collegeapp1.notice.UploadNotice;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    CardView uploadNotice ,addGalleryImage ,addEbook, faculty;
+    CardView uploadNotice ,addGalleryImage ,addEbook, faculty,deleteNotice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +21,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         uploadNotice=findViewById(R.id.addNotice);
         addGalleryImage=findViewById(R.id.addGalleryImage);
         addEbook=findViewById(R.id.addEbook);
+        deleteNotice=findViewById(R.id.deleteNotice);
         faculty=findViewById(R.id.faculty);
 
         uploadNotice.setOnClickListener(this);
         addGalleryImage.setOnClickListener(this);
         addEbook.setOnClickListener(this);
         faculty.setOnClickListener(this);
+        deleteNotice.setOnClickListener(this);
 
     }
 
@@ -33,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent;
         switch (view.getId()){
             case R.id.addNotice:
-                intent=new Intent(MainActivity.this,UploadNotice.class);
+                intent=new Intent(MainActivity.this, UploadNotice.class);
                 startActivity(intent);
                 break;
             case R.id.addGalleryImage:
@@ -46,6 +50,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.faculty:
                 intent=new Intent(MainActivity.this, UpdateFaculty.class);
+                startActivity(intent);
+                break;
+            case R.id.deleteNotice:
+                intent=new Intent(MainActivity.this, DeleteNoticeActivity.class);
                 startActivity(intent);
                 break;
         }
