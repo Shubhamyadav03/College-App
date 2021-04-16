@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeApp1">
-        <activity android:name=".faculty.AddTeacher"></activity>
+        <activity android:name=".faculty.UpdateTeacherActivity"></activity>
+        <activity android:name=".faculty.AddTeacher" />
         <activity android:name=".faculty.UpdateFaculty" />
         <activity android:name=".UploadPdfActivity" />
         <activity android:name=".UploadImage" />
