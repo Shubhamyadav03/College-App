@@ -32,8 +32,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="College User App"
-                    android:layout_marginLeft="16dp"
-                    android:textSize="18dp"
+
+                    android:textSize="25dp"
                     android:textColor="@color/black"/>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                         android:layout_height="wrap_content"
                         android:text="Date : "
                         android:fontFamily="@string/light"
-                        android:textSize="@dimen/text_size01"
+                        android:textSize="10dp"
                         android:textColor="@color/textColor"/>
                     <TextView
                         android:id="@+id/date"
@@ -53,7 +53,7 @@
                         android:layout_height="wrap_content"
                         android:text="15 aug 2020"
                         android:fontFamily="@string/light"
-                        android:textSize="@dimen/text_size01"
+                        android:textSize="10dp"
                         android:textColor="@color/textColor"/>
                     <TextView
                         android:layout_width="wrap_content"
@@ -61,15 +61,15 @@
                         android:text="Time : "
                         android:layout_marginLeft="@dimen/text_margin"
                         android:fontFamily="@string/light"
-                        android:textSize="@dimen/text_size01"
+                        android:textSize="10dp"
                         android:textColor="@color/textColor"/>
                     <TextView
                         android:id="@+id/time"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:text="12:00 "
                         android:fontFamily="@string/light"
-                        android:textSize="@dimen/text_size01"
+                        android:textSize="10dp"
                         android:textColor="@color/textColor"/>
                 </LinearLayout>
 
@@ -85,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gla University"
-            android:textSize="17sp"
+            android:textSize="12sp"
             android:layout_marginVertical="@dimen/text_margin"
             android:textColor="@color/black"/>
 

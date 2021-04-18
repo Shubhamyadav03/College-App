@@ -40,7 +40,7 @@ public class TeacherAdapter extends RecyclerView.Adapter<com.example.collegeuser
         holder.email.setText(item.getEmail());
         holder.post.setText(item.getPost());
         try {
-            Glide.with(context).load(item.getImage()).into(holder.imageView);
+            Glide.with(context).load(item.getImage()).placeholder(R.drawable.avtarprofile).into(holder.imageView);
         } catch (Exception e) {
             e.printStackTrace();
         }
