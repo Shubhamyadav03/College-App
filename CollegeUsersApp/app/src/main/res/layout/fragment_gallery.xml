@@ -40,6 +40,7 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/grey2"
                     android:id="@+id/convoRecycler"/>
 
             </LinearLayout>
@@ -76,6 +77,7 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/grey2"
                     android:id="@+id/indepRecycler"/>
 
             </LinearLayout>
@@ -112,6 +114,8 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/grey2"
+
                     android:id="@+id/sportRecycler"/>
 
             </LinearLayout>
@@ -150,6 +154,8 @@
                 <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/grey2"
+
                     android:id="@+id/otherRecycler"/>
 
             </LinearLayout>
