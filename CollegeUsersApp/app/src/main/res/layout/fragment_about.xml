@@ -19,6 +19,8 @@
             android:layout_height="wrap_content"
             android:text="@string/about_college"
             android:layout_marginTop="@dimen/text_margin"
+            android:background="@color/grey2"
+            android:padding="@dimen/text_margin"
             android:layout_marginHorizontal="@dimen/text_margin"
             android:textSize="@dimen/text_size"
             android:layout_gravity="center_horizontal"
@@ -41,12 +43,65 @@
 
                 android:text="Green Environment"/>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/ic_baseline_label_important_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+
+                android:text="100% Placement"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/ic_baseline_label_important_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+
+                android:text="Supportive Faculty"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/ic_baseline_label_important_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+
+                android:text="Empowering Innovation "/>
+        </LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Branch"
             android:layout_marginTop="36dp"
-            android:textSize="@dimen/title_size"
+
+            android:textSize="30dp"
             android:layout_gravity="center_horizontal"
             android:textColor="@color/textColor"
             android:fontFamily="@string/bold"/>
