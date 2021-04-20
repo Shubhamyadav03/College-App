@@ -41,7 +41,7 @@ public class AboutFragment extends Fragment {
         ImageView imageView = view.findViewById(R.id.college_image);
 
         Glide.with(getContext())
-                .load("https://firebasestorage.googleapis.com/v0/b/gp-adampur-1307e.appspot.com/o/others%2Fcollege.jpg?alt=media&token=91e373ad-b93a-4156-99a7-9f6834ac9b76")
+                .load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8EgVAkpkwmuBIcdI80gw6GR5k5pfRYoXdDg&usqp=CAU")
                 .into(imageView);
 
         return  view;
